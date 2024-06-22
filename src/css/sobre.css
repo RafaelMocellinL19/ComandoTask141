@@ -21,6 +21,15 @@
 
 .sobre-mim .informacoes-sobre-mim .botoes {
     margin-top: 50px;
+    
+}
+
+.botoes{
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+    padding: auto;
+    margin:auto;
 }
 
 .sobre-mim .informacoes-sobre-mim p {
@@ -46,5 +55,9 @@
 
     .sobre-mim .informacoes-sobre-mim {
         max-width: 100%;
+    }
+    .botoes{
+        display: block;
+
     }
 }
